@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="彰化縣芳苑鄉育華國小六年忠班教學網站：班級公告、本週課表、學習資源、活動剪影與校園最新消息。">
+<meta name="keywords" content="育華國小,六年忠班,彰化縣芳苑,教學網站,國小">
+<meta name="author" content="育華國小六年忠班">
+<meta name="theme-color" content="#0d3a5c">
+<title>育華國小 六年忠班 ｜ 班級教學網站</title>
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="apple-touch-icon" href="logo.png">
+<link rel="stylesheet" href="assets/icons/bootstrap-icons.min.css">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+
+<body>
+<a class="skip-link" href="#main">跳至主要內容</a>
+
+<!-- ============================ 頂端資訊列 ============================ -->
+<div class="topbar">
+  <div class="container topbar__inner">
+    <ul class="topbar__list">
+      <li><i class="bi bi-geo-alt-fill"></i>彰化縣芳苑鄉永興村太平路 300 號</li>
+      <li><i class="bi bi-telephone-fill"></i><a href="tel:048933261">04-8933261</a></li>
+      <li><i class="bi bi-globe2"></i><a href="https://yhes.chc.edu.tw/" target="_blank" rel="noopener">yhes.chc.edu.tw</a></li>
+    </ul>
+    <div class="topbar__date"><i class="bi bi-calendar3"></i><span id="today">載入中…</span></div>
+  </div>
+</div>
+
+<!-- ============================ 導覽列 ============================ -->
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a class="brand" href="#home">
+      <img class="brand__logo" src="logo.png" alt="育華國小 校徽">
+      <span class="brand__text">
+        <span class="brand__title">育華國小 <span>六年忠班</span></span>
+        <span class="brand__sub">Yuhua Elem. School · Class 6‑Zhong</span>
+      </span>
+    </a>
+
+    <button class="nav__toggle" id="navToggle" aria-label="開啟選單" aria-expanded="false">
+      <i class="bi bi-list"></i>
+    </button>
+
+    <nav class="nav__menu" id="navMenu" aria-label="主選單">
+      <a class="nav__link" href="#home"><i class="bi bi-house-door-fill"></i>首頁</a>
+      <a class="nav__link" href="#announce"><i class="bi bi-megaphone-fill"></i>最新公告</a>
+      <a class="nav__link" href="#about"><i class="bi bi-people-fill"></i>認識忠班</a>
+      <a class="nav__link" href="#timetable"><i class="bi bi-calendar-week-fill"></i>本週課表</a>
+      <a class="nav__link" href="#resources"><i class="bi bi-journal-richtext"></i>學習資源</a>
+      <a class="nav__link" href="#activities"><i class="bi bi-camera-fill"></i>活動剪影</a>
+      <a class="nav__link" href="#qrcode"><i class="bi bi-qr-code-scan"></i>校園QR</a>
+      <a class="nav__cta" href="https://yhes.chc.edu.tw/" target="_blank" rel="noopener">
+        <i class="bi bi-box-arrow-up-right"></i>學校首頁
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============================ 主視覺 ============================ -->
+  <section class="hero" id="home">
+    <div class="container hero__inner">
+      <div class="hero__left">
+        <span class="hero__badge"><i class="bi bi-stars"></i>115 學年度（2026–2027）上學期</span>
+        <h1 class="hero__title">
+          育華國小 <em>六年忠班</em>
+          <small>PEARL OF KNOWLEDGE · 用心灌溉每一顆明日珍珠</small>
+        </h1>
+        <p class="hero__desc">
+          歡迎來到六年忠班的班級網站！這裡整理了本班的最新公告、每週課表、
+          學習資源與活動剪影。讓家長與孩子在線上也能掌握學校的每一份訊息，
+          一起陪伴孩子迎接畢業前的美好時光。
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--gold" href="#announce"><i class="bi bi-megaphone-fill"></i>查看最新公告</a>
+          <a class="btn btn--ghost" href="#timetable"><i class="bi bi-calendar-week-fill"></i>本週課表</a>
+        </div>
+        <div class="hero__stats">
+          <div><strong>32</strong><span>班級人數</span></div>
+          <div><strong>7</strong><span>每日課節</span></div>
+          <div><strong>8</strong><span>學習領域</span></div>
+          <div><strong>1000+</strong><span>年度閱讀目標</span></div>
+        </div>
+      </div>
+
+      <aside class="hero__card reveal">
+        <img class="hero__card-logo" src="logo.png" alt="育華國小 珍珠校徽">
+        <h2>彰化縣芳苑鄉育華國民小學</h2>
+        <p>彰化縣芳苑鄉永興村太平路 300 號</p>
+        <ul class="hero__card-list">
+          <li><i class="bi bi-person-badge-fill"></i>班導師：王老師（國語科）</li>
+          <li><i class="bi bi-door-open-fill"></i>教室：育華國小 二樓 忠班教室</li>
+          <li><i class="bi bi-clock-fill"></i>上課時間：08:00 ～ 15:40</li>
+          <li><i class="bi bi-telephone-fill"></i>班級聯絡：04-8933261 轉 62</li>
+        </ul>
+      </aside>
+    </div>
+
+    <div class="hero__wave">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+        <path fill="#f7fbfe" d="M0,64 C240,120 480,8 720,40 C960,72 1200,128 1440,72 L1440,120 L0,120 Z"></path>
+        <path fill="#edf5fb" d="M0,88 C260,132 520,28 760,58 C1000,88 1220,132 1440,96 L1440,120 L0,120 Z" opacity=".7"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ============================ 最新公告 ============================ -->
+  <section class="section" id="announce">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="sec-head__eyebrow"><i class="bi bi-megaphone-fill"></i>ANNOUNCEMENT</span>
+        <h2 class="sec-head__title">最新公告</h2>
+        <p class="sec-head__sub">班級事務、學校活動與重要提醒，都會第一時間在這裡發布，請家長與同學們多加留意。</p>
+      </div>
+
+      <div class="ann-grid">
+        <!-- 公告清單（新增公告請複製一個 .ann-item 區塊即可） -->
+        <ul class="ann-list" id="annList">
+          <li class="ann-item reveal" data-delay="1">
+            <span class="ann-item__icon ann-item__icon--gold"><i class="bi bi-bus-front-fill"></i></span>
+            <div class="ann-item__body">
+              <span class="ann-item__tag">重要</span>
+              <h3 class="ann-item__title">六年級畢業旅行（第二次）報名暨行程說明</h3>
+              <p class="ann-item__meta">
+                <span><i class="bi bi-calendar-event"></i>2026/10/20</span>
+                <span><i class="bi bi-person-fill"></i>班導師</span>
+                <span><i class="bi bi-paperclip"></i>附報名表</span>
+              </p>
+            </div>
+          </li>
+
+          <li class="ann-item reveal" data-delay="2">
+            <span class="ann-item__icon"><i class="bi bi-trophy-fill"></i></span>
+            <div class="ann-item__body">
+              <span class="ann-item__tag">活動</span>
+              <h3 class="ann-item__title">校慶運動會暨家庭教育週，請協助準備班級道具</h3>
+              <p class="ann-item__meta">
+                <span><i class="bi bi-calendar-event"></i>2026/10/24</span>
+                <span><i class="bi bi-people-fill"></i>全班</span>
+              </p>
+            </div>
+          </li>
+
+          <li class="ann-item reveal" data-delay="3">
+            <span class="ann-item__icon ann-item__icon--mint"><i class="bi bi-clipboard-check-fill"></i></span>
+            <div class="ann-item__body">
+              <span class="ann-item__tag">成績</span>
+              <h3 class="ann-item__title">期中成績查詢開放，補救教學名單同步公布</h3>
+              <p class="ann-item__meta">
+                <span><i class="bi bi-calendar-event"></i>2026/10/16</span>
+                <span><i class="bi bi-person-fill"></i>教務處</span>
+              </p>
+            </div>
+          </li>
+
+          <li class="ann-item reveal" data-delay="4">
+            <span class="ann-item__icon ann-item__icon--gold"><i class="bi bi-book-fill"></i></span>
+            <div class="ann-item__body">
+              <span class="ann-item__tag">閱讀</span>
+              <h3 class="ann-item__title">圖書館「親子共讀．說故事」活動開放報名</h3>
+              <p class="ann-item__meta">
+                <span><i class="bi bi-calendar-event"></i>2026/10/28</span>
+                <span><i class="bi bi-people-fill"></i>家長</span>
+              </p>
+            </div>
+          </li>
+
+          <li class="ann-item reveal" data-delay="5">
+            <span class="ann-item__icon"><i class="bi bi-heart-pulse-fill"></i></span>
+            <div class="ann-item__body">
+              <span class="ann-item__tag">健康</span>
+              <h3 class="ann-item__title">流行性感冒 season：落實勤洗手與自主健康管理</h3>
+              <p class="ann-item__meta">
+                <span><i class="bi bi-calendar-event"></i>2026/10/21</span>
+                <span><i class="bi bi-person-fill"></i>健康中心</span>
+              </p>
+            </div>
+          </li>
+        </ul>
+
+        <!-- 側欄 -->
+        <div class="ann-side">
+          <div class="count-card reveal" data-delay="2">
+            <span class="count-card__label"><i class="bi bi-hourglass-split"></i> 畢業典禮倒數</span>
+            <div class="count-card__grid">
+              <div><strong id="cd-day">--</strong><span>天</span></div>
+              <div><strong id="cd-hour">--</strong><span>時</span></div>
+              <div><strong id="cd-min">--</strong><span>分</span></div>
+              <div><strong id="cd-sec">--</strong><span>秒</span></div>
+            </div>
+          </div>
+
+          <div class="mini-card reveal" data-delay="3">
+            <h3><i class="bi bi-check2-circle"></i>本週重要提醒</h3>
+            <ul class="check-list">
+              <li><i class="bi bi-check-circle-fill"></i>每週五前繳交國語閱讀心得單。</li>
+              <li><i class="bi bi-check-circle-fill"></i>週三下午社團時間，記得攜帶社團裝備。</li>
+              <li><i class="bi bi-check-circle-fill"></i>校慶運動會服裝：深色運動服 + 白襪 + 運動鞋。</li>
+              <li><i class="bi bi-check-circle-fill"></i>家中若有感冒症狀，請先就醫並告知導師。</li>
+              <li><i class="bi bi-check-circle-fill"></i>本週五 15:40 社團結束後請家長協助接送。</li>
+            </ul>
+          </div>
+
+          <div class="mini-card reveal" data-delay="4">
+            <h3><i class="bi bi-box-arrow-up-right"></i>常用連結</h3>
+            <ul class="check-list">
+              <li><i class="bi bi-globe2"></i><a href="https://yhes.chc.edu.tw/" target="_blank" rel="noopener">育華國小全球資訊網（公告、檔案庫）</a></li>
+              <li><i class="bi bi-people-fill"></i><a href="https://sites.google.com/view/iloveyhes" target="_blank" rel="noopener">六年忠班班級網頁（歷屆作品）</a></li>
+              <li><i class="bi bi-cloud-fill"></i><a href="https://cloudschool.chc.edu.tw/" target="_blank" rel="noopener">彰化縣雲端校務系統</a></li>
+              <li><i class="bi bi-book-fill"></i><a href="https://chcedu.ebook.hyread.com.tw/" target="_blank" rel="noopener">彰化縣電子書庫</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ 認識六年忠班 ============================ -->
+  <section class="section section--tint" id="about">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="sec-head__eyebrow"><i class="bi bi-people-fill"></i>ABOUT US</span>
+        <h2 class="sec-head__title">認識六年忠班</h2>
+        <p class="sec-head__sub">忠：忠誠、負責、守信。我們希望每位同學都能帶著這份品格，勇敢迎接下一段旅程。</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="teacher-card reveal" data-delay="1">
+          <div class="teacher-card__avatar"><i class="bi bi-person-fill"></i></div>
+          <h3>王 莉 華 老師</h3>
+          <p class="teacher-card__role">六年忠班 班導師 ｜ 國語科任課教師</p>
+          <blockquote class="teacher-card__quote">
+            「每個孩子都像一顆珍珠，需要時間與耐心慢慢打磨。<br>
+            願我們一起，陪他們找到屬於自己的光芒。」
+          </blockquote>
+          <ul class="teacher-card__meta">
+            <li><i class="bi bi-telephone-fill"></i>分機 62（校內），或透過聯絡簿留言</li>
+            <li><i class="bi bi-envelope-fill"></i>yhes6z@chc.edu.tw（請來信或聯絡簿留言）</li>
+            <li><i class="bi bi-clock-fill"></i>平日 08:00 ～ 16:00 可聯絡</li>
+            <li><i class="bi bi-lightbulb-fill"></i>每週三 15:40 班級讀書會，歡迎一起加入</li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="info-grid">
+            <article class="info-card reveal" data-delay="1">
+              <span class="info-card__icon"><i class="bi bi-backpack-fill"></i></span>
+              <h4>班級基本資料</h4>
+              <p>六年忠班，共 32 名學生，教室位於本校二樓忠班教室，鄰近圖書館與自然科學教室。</p>
+            </article>
+            <article class="info-card reveal" data-delay="2">
+              <span class="info-card__icon"><i class="bi bi-translate"></i></span>
+              <h4>雙語教學</h4>
+              <p>每週三節英語課程，結合情境式教學與自然拼音，讓孩子敢開口、愛閱讀。</p>
+            </article>
+            <article class="info-card reveal" data-delay="3">
+              <span class="info-card__icon"><i class="bi bi-tree-fill"></i></span>
+              <h4>特色課程</h4>
+              <p>ORKA 扯鼓、陶藝、游泳、射箭與科學實驗班，讓每位孩子找到自己的舞台。</p>
+            </article>
+            <article class="info-card reveal" data-delay="4">
+              <span class="info-card__icon"><i class="bi bi-emoji-smile-fill"></i></span>
+              <h4>品格教育</h4>
+              <p>以「忠、誠、仁、愛」為班級核心價值，每週進行一則品格故事分享與討論。</p>
+            </article>
+          </div>
+
+          <div class="feature-row">
+            <article class="feature reveal" data-delay="1">
+              <i class="bi bi-music-note-beamed"></i>
+              <h4>班級音樂饗宴</h4>
+              <p>每月一次的音樂角落，孩子轮流分享最喜歡的一首歌。</p>
+            </article>
+            <article class="feature reveal" data-delay="2">
+              <i class="bi bi-journal-bookmark-fill"></i>
+              <h4>自主學習</h4>
+              <p>每週三午間自主學習時間，讀書、繪本創作或小組研究自由選擇。</p>
+            </article>
+            <article class="feature reveal" data-delay="3">
+              <i class="bi bi-globe-asia-australia"></i>
+              <h4>在地探索</h4>
+              <p>走訪芳苑濕地與蚵仔寮漁村，把課本裡的知識帶到真實世界。</p>
+            </article>
+            <article class="feature reveal" data-delay="4">
+              <i class="bi bi-heart-fill"></i>
+              <h4>服務學習</h4>
+              <p>定期參與社區關懷與環境清潔，用行動愛上自己的家鄉。</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ 本週課表 ============================ -->
+  <section class="section section--white" id="timetable">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="sec-head__eyebrow"><i class="bi bi-calendar-week-fill"></i>TIMETABLE</span>
+        <h2 class="sec-head__title">本週課表</h2>
+        <p class="sec-head__sub">115 學年度第一學期 ｜ 課程如有異動，將依學校公告與班級通知為準。</p>
+      </div>
+
+      <div class="tt-wrap reveal">
+        <div class="tt-scroll">
+          <table class="tt">
+            <caption class="visually-hidden">六年忠班每週課表</caption>
+            <thead>
+              <tr>
+                <th scope="col">時段</th>
+                <th scope="col">星期一</th>
+                <th scope="col">星期二</th>
+                <th scope="col">星期三</th>
+                <th scope="col">星期四</th>
+                <th scope="col">星期五</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="tt-period">第 1 節<small>08:00</small></td>
+                <td><span class="sub sub-chinese">國語<small>王老師</small></span></td>
+                <td><span class="sub sub-math">數學<small>李老師</small></span></td>
+                <td><span class="sub sub-chinese">國語<small>王老師</small></span></td>
+                <td><span class="sub sub-math">數學<small>李老師</small></span></td>
+                <td><span class="sub sub-chinese">國語<small>王老師</small></span></td>
+              </tr>
+              <tr>
+                <td class="tt-period">第 2 節<small>09:00</small></td>
+                <td><span class="sub sub-math">數學<small>李老師</small></span></td>
+                <td><span class="sub sub-chinese">國語<small>王老師</small></span></td>
+                <td><span class="sub sub-english">英語<small>陳老師</small></span></td>
+                <td><span class="sub sub-chinese">國語<small>王老師</small></span></td>
+                <td><span class="sub sub-math">數學<small>李老師</small></span></td>
+              </tr>
+              <tr>
+                <td class="tt-period">第 3 節<small>10:00</small></td>
+                <td><span class="sub sub-english">英語<small>陳老師</small></span></td>
+                <td><span class="sub sub-social">社會<small>張老師</small></span></td>
+                <td><span class="sub sub-science">自然<small>黃老師</small></span></td>
+                <td><span class="sub sub-art">藝術<small>吳老師</small></span></td>
+                <td><span class="sub sub-english">英語<small>陳老師</small></span></td>
+              </tr>
+              <tr>
+                <td class="tt-period">第 4 節<small>11:00</small></td>
+                <td><span class="sub sub-science">自然<small>黃老師</small></span></td>
+                <td><span class="sub sub-music">音樂<small>林老師</small></span></td>
+                <td><span class="sub sub-social">社會<small>張老師</small></span></td>
+                <td><span class="sub sub-music">音樂<small>林老師</small></span></td>
+                <td><span class="sub sub-social">社會<small>張老師</small></span></td>
+              </tr>
+              <tr>
+                <td class="tt-period">第 5 節<small>13:40</small></td>
+                <td><span class="sub sub-art">藝術<small>吳老師</small></span></td>
+                <td><span class="sub sub-pe">體育<small>許教練</small></span></td>
+                <td><span class="sub sub-pe">體育<small>許教練</small></span></td>
+                <td><span class="sub sub-science">自然<small>黃老師</small></span></td>
+                <td><span class="sub sub-class">班級<small>王老師</small></span></td>
+              </tr>
+              <tr>
+                <td class="tt-period">第 6 節<small>14:30</small></td>
+                <td><span class="sub sub-social">社會<small>張老師</small></span></td>
+                <td><span class="sub sub-science">自然<small>黃老師</small></span></td>
+                <td><span class="sub sub-art">藝術<small>吳老師</small></span></td>
+                <td><span class="sub sub-pe">體育<small>許教練</small></span></td>
+                <td><span class="sub sub-science">自然<small>黃老師</small></span></td>
+              </tr>
+              <tr>
+                <td class="tt-period">第 7 節<small>15:20</small></td>
+                <td><span class="sub sub-class">班級<small>王老師</small></span></td>
+                <td><span class="sub sub-class">綜合<small>各科</small></span></td>
+                <td><span class="sub sub-class">班級<small>王老師</small></span></td>
+                <td><span class="sub sub-class">綜合<small>各科</small></span></td>
+                <td><span class="sub sub-class">班級<small>王老師</small></span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="tt-note">
+          <i class="bi bi-info-circle-fill"></i>
+          <span>早自習 07:50 起；午休 12:10–13:30；社團時間 15:40–16:40（本班週三自主學習）。</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ 學習資源 ============================ -->
+  <section class="section section--tint" id="resources">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="sec-head__eyebrow"><i class="bi bi-journal-richtext"></i>LEARNING RESOURCES</span>
+        <h2 class="sec-head__title">學習資源</h2>
+        <p class="sec-head__sub">家長與同學常用的線上學習平台與校園系統，點選即可前往瀏覽。</p>
+      </div>
+
+      <div class="res-grid">
+        <a class="res-card reveal" data-delay="1" href="https://yhes.chc.edu.tw/" target="_blank" rel="noopener">
+          <span class="res-card__icon"><i class="bi bi-globe2"></i></span>
+          <div>
+            <h3>育華國小全球資訊網</h3>
+            <p>學校最新公告、檔案庫、校務月曆與活動影音專區。</p>
+            <span class="res-card__go">前往瀏覽 <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <a class="res-card reveal" data-delay="2" href="https://sites.google.com/view/iloveyhes" target="_blank" rel="noopener">
+          <span class="res-card__icon"><i class="bi bi-people-fill"></i></span>
+          <div>
+            <h3>六年忠班班級網頁</h3>
+            <p>歷屆作品、班級照片、學習回顧與老師的班級經營紀錄。</p>
+            <span class="res-card__go">前往瀏覽 <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <a class="res-card reveal" data-delay="3" href="https://chcedu.ebook.hyread.com.tw/" target="_blank" rel="noopener">
+          <span class="res-card__icon"><i class="bi bi-book-fill"></i></span>
+          <div>
+            <h3>彰化縣電子書庫</h3>
+            <p>線上電子書借閱平台，寒暑假也能安心閱讀、寫心得。</p>
+            <span class="res-card__go">前往瀏覽 <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <a class="res-card reveal" data-delay="4" href="https://cloudschool.chc.edu.tw/" target="_blank" rel="noopener">
+          <span class="res-card__icon"><i class="bi bi-cloud-fill"></i></span>
+          <div>
+            <h3>彰化縣雲端校務系統</h3>
+            <p>成績查詢、課表下載、點名紀錄與各項表單線上填寫。</p>
+            <span class="res-card__go">前往瀏覽 <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <a class="res-card reveal" data-delay="1" href="https://fun.cloud.edu.tw/moocs/indexAction!execute.so" target="_blank" rel="noopener">
+          <span class="res-card__icon"><i class="bi bi-collection-fill"></i></span>
+          <div>
+            <h3>教育雲｜優質教材</h3>
+            <p>教育部免費課程與教材，國語、數學、自然一把抓。</p>
+            <span class="res-card__go">前往瀏覽 <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <a class="res-card reveal" data-delay="2" href="https://www.pagamo.org/" target="_blank" rel="noopener">
+          <span class="res-card__icon"><i class="bi bi-play-btn-fill"></i></span>
+          <div>
+            <h3>PaGamO 線上學習</h3>
+            <p>免費 AI 陪練，隨時隨地複習數學與自然的好幫手。</p>
+            <span class="res-card__go">前往瀏覽 <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ 活動剪影 ============================ -->
+  <section class="section section--white" id="activities">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="sec-head__eyebrow"><i class="bi bi-camera-fill"></i>ACTIVITIES</span>
+        <h2 class="sec-head__title">活動剪影</h2>
+        <p class="sec-head__sub">從教室到田野，六年忠班的每一個脚印，都是最珍貴的成長紀錄。</p>
+      </div>
+
+      <!-- 若有實拍照片，可將 .gal-item 區塊改為 <figure class="gal-item"><img src="images/xxx.jpg" alt="活動照片"></figure> -->
+      <div class="gal-grid">
+        <figure class="gal-item gal-item--1 reveal" data-delay="1">
+          <div><i class="bi bi-tree-fill"></i><span>校慶運動會</span><small>2026.10.24 團隊競賽</small></div>
+        </figure>
+        <figure class="gal-item gal-item--2 reveal" data-delay="2">
+          <div><i class="bi bi-palette-fill"></i><span>陶藝與藝術創作</span><small>特色課程成果展</small></div>
+        </figure>
+        <figure class="gal-item gal-item--3 reveal" data-delay="3">
+          <div><i class="bi bi-water"></i><span>芳苑濕地戶外教學</span><small>在地探索學習</small></div>
+        </figure>
+        <figure class="gal-item gal-item--4 reveal" data-delay="4">
+          <div><i class="bi bi-book-fill"></i><span>每週班級讀書會</span><small>一週一本，讀不厭</small></div>
+        </figure>
+        <figure class="gal-item gal-item--5 reveal" data-delay="5">
+          <div><i class="bi bi-dribbble"></i><span>班際籃球賽</span><small>團結合作向前行</small></div>
+        </figure>
+        <figure class="gal-item gal-item--6 reveal">
+          <div><i class="bi bi-heart-fill"></i><span>服務學習</span><small>社區關懷不落後</small></div>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ QR Code ============================ -->
+  <section class="section qr-section" id="qrcode">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="sec-head__eyebrow" style="background:rgba(255,255,255,.14);color:#ffe6ac;"><i class="bi bi-qr-code-scan"></i>SCAN ME</span>
+        <h2 class="sec-head__title" style="color:#fff;">掃描 QR Code</h2>
+        <p class="sec-head__sub" style="color:#cfe3ef;">手機掃碼即時連結育華國小全球資訊網，隨時掌握校園最新消息。</p>
+      </div>
+
+      <div class="qr-wrap">
+        <div class="qr-text reveal" data-delay="1">
+          <h2>育華國小<br>全球資訊網</h2>
+          <p>
+            掃描左側 QR Code，或點擊下方連結，即可進入
+            <strong>彰化縣芳苑鄉育華國民小學</strong>官方網站，
+            查看學校公告、檔案下載、校務月曆與活動影音。
+          </p>
+          <ul class="qr-points">
+            <li><i class="bi bi-check-circle-fill"></i>一般公告、內部公告與榮譽榜即時更新</li>
+            <li><i class="bi bi-check-circle-fill"></i>各處室表單、計畫與會議資料集中管理</li>
+            <li><i class="bi bi-check-circle-fill"></i>校園活動照片、影片與防災宣導專區</li>
+            <li><i class="bi bi-check-circle-fill"></i>空氣品質指標與防災資訊查詢</li>
+          </ul>
+        </div>
+
+        <figure class="qr-box reveal" data-delay="2">
+          <img src="qrcode_yhes.chc.edu.tw.png" width="450" height="450"
+               alt="育華國小全球資訊網 QR Code（450 × 450）" loading="lazy">
+          <figcaption>育華國小全球資訊網</figcaption>
+          <small>yhes.chc.edu.tw</small>
+          <a class="qr-link" href="https://yhes.chc.edu.tw/" target="_blank" rel="noopener">
+            <i class="bi bi-box-arrow-up-right"></i> 直接開啟網站
+          </a>
+        </figure>
+
+        <div class="qr-text reveal" data-delay="3">
+          <h2>班級聯絡資訊</h2>
+          <p>
+            平常上班時間 08:00 ～ 16:00 可直接來電；
+            若有臨時狀況，請透過班級聯絡簿留言，老師會在第一時間回覆。
+          </p>
+          <ul class="qr-points">
+            <li><i class="bi bi-telephone-fill"></i>總機 04-8933261 ｜ 傳真 04-8935311</li>
+            <li><i class="bi bi-person-badge-fill"></i>班導師分機 62</li>
+            <li><i class="bi bi-geo-alt-fill"></i>50448 彰化縣芳苑鄉永興村太平路 300 號</li>
+            <li><i class="bi bi-facebook"></i>育華國小粉絲專頁同步更新活動花絮</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================ 頁尾 ============================ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand-col">
+        <div class="footer__brand">
+          <img src="logo.png" alt="育華國小 校徽">
+          <div>
+            <strong>彰化縣芳苑鄉育華國民小學</strong>
+            <span>六年忠班 ｜ 班級教學網站</span>
+          </div>
+        </div>
+        <p>
+          以「忠」為班級核心， 期盼每位孩子在六年級的歲月裡，
+          累積足以發光的能力與溫暖的品格，成為自己人生中最璀璨的一顆珍珠。
+        </p>
+      </div>
+
+      <div>
+        <h3><i class="bi bi-link-45deg"></i>校園連結</h3>
+        <ul class="footer__list">
+          <li><i class="bi bi-globe2"></i><a href="https://yhes.chc.edu.tw/" target="_blank" rel="noopener">育華國小全球資訊網</a></li>
+          <li><i class="bi bi-building"></i><a href="https://www.chc.edu.tw/" target="_blank" rel="noopener">彰化縣政府教育處</a></li>
+          <li><i class="bi bi-mortarboard-fill"></i><a href="https://www.edu.tw/" target="_blank" rel="noopener">教育部</a></li>
+          <li><i class="bi bi-journal-text"></i><a href="https://12basic.edu.tw/" target="_blank" rel="noopener">十二年國教資訊網</a></li>
+          <li><i class="bi bi-bank"></i><a href="https://www.naer.edu.tw/" target="_blank" rel="noopener">國家教育研究院</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3><i class="bi bi-info-circle-fill"></i>學校資訊</h3>
+        <ul class="footer__list">
+          <li><i class="bi bi-geo-alt-fill"></i>50448 彰化縣芳苑鄉永興村太平路 300 號</li>
+          <li><i class="bi bi-telephone-fill"></i>04-8933261 / 04-8934246</li>
+          <li><i class="bi bi-printer-fill"></i>傳真 04-8935311</li>
+          <li><i class="bi bi-facebook"></i><a href="https://www.facebook.com/people/%E5%BD%B0%E5%8C%96%E7%B8%A3%E8%8A%B3%E8%8B%91%E9%84%89%E8%82%B2%E8%8F%AF%E5%9C%8B%E6%B0%91%E5%B0%8F%E5%AD%B8-567644046770588/" target="_blank" rel="noopener">育華國小臉書粉絲專頁</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>© 2026 彰化縣芳苑鄉育華國民小學 六年忠班 ｜ 網頁設計：班級自治幹部</span>
+      <span>本站使用 Bootstrap Icons（MIT 授權）free icons</span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="回到頂端"><i class="bi bi-arrow-up"></i></button>
+
+<script>
+/* =========================================================
+   育華國小 六年忠班｜互動功能
+   ========================================================= */
+(function () {
+  'use strict';
+
+  /* ---------- 1. 今日日期 ---------- */
+  var todayEl = document.getElementById('today');
+  if (todayEl) {
+    var now = new Date();
+    var week = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+    todayEl.textContent = now.getFullYear() + ' 年 ' + (now.getMonth() + 1) + ' 月 ' +
+      now.getDate() + ' 日　' + week[now.getDay()];
+  }
+
+  /* ---------- 2. 畢業典禮倒數 ----------
+     若日期異動，只需修改下方 GRADUATION_DATE（格式：YYYY-MM-DD） */
+  var GRADUATION_DATE = '2027-06-12';
+  var cd = {
+    day: document.getElementById('cd-day'),
+    hour: document.getElementById('cd-hour'),
+    min: document.getElementById('cd-min'),
+    sec: document.getElementById('cd-sec')
+  };
+
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+
+  function tick() {
+    if (!cd.day) return;
+    var target = new Date(GRADUATION_DATE + 'T09:00:00');
+    var diff = target - new Date();
+    if (diff < 0) diff = 0;
+    var sec = Math.floor(diff / 1000);
+    cd.day.textContent = Math.floor(sec / 86400);
+    cd.hour.textContent = pad(Math.floor(sec % 86400 / 3600));
+    cd.min.textContent = pad(Math.floor(sec % 3600 / 60));
+    cd.sec.textContent = pad(sec % 60);
+  }
+  tick();
+  setInterval(tick, 1000);
+
+  /* ---------- 3. 手機選單 ---------- */
+  var toggle = document.getElementById('navToggle');
+  var menu = document.getElementById('navMenu');
+
+  if (toggle && menu) {
+    toggle.addEventListener('click', function () {
+      var open = menu.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      toggle.innerHTML = open ? '<i class="bi bi-x-lg"></i>' : '<i class="bi bi-list"></i>';
+    });
+    menu.addEventListener('click', function (e) {
+      if (e.target.closest('a')) {
+        menu.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.innerHTML = '<i class="bi bi-list"></i>';
+      }
+    });
+  }
+
+  /* ---------- 4. 導覽列陰影 + 回到頂端 ---------- */
+  var nav = document.getElementById('nav');
+  var toTop = document.getElementById('toTop');
+
+  function onScroll() {
+    var y = window.scrollY || window.pageYOffset;
+    if (nav) nav.classList.toggle('is-stuck', y > 10);
+    if (toTop) toTop.classList.toggle('show', y > 500);
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  if (toTop) {
+    toTop.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  /* ---------- 5. 捲動時高亮目前區段 ---------- */
+  var links = Array.prototype.slice.call(document.querySelectorAll('.nav__link[href^="#"]'));
+  var sections = links.map(function (a) {
+    return document.querySelector(a.getAttribute('href'));
+  }).filter(Boolean);
+
+  function spy() {
+    var pos = (window.scrollY || window.pageYOffset) + 140;
+    var current = sections[0];
+    sections.forEach(function (sec) {
+      if (sec.offsetTop <= pos) current = sec;
+    });
+    links.forEach(function (a) {
+      a.classList.toggle('is-active', current && a.getAttribute('href') === '#' + current.id);
+    });
+  }
+  window.addEventListener('scroll', spy, { passive: true });
+  window.addEventListener('resize', spy);
+  spy();
+
+  /* ---------- 6. 進場動畫 ---------- */
+  var reveals = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    reveals.forEach(function (el) { io.observe(el); });
+  } else {
+    reveals.forEach(function (el) { el.classList.add('is-in'); });
+  }
+})();
+</script>
+</body>
+</html>
